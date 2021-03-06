@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;05EJB_PublisherSubscriberMessageDomain/ejbModule/META-INF/04jbossmq-destinations-service.xml&apos; to &apos;05jbossmq-destinations-service.xml&apos;" description="Rename resource &apos;04jbossmq-destinations-service.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ejbModule/META-INF/04jbossmq-destinations-service.xml" name="05jbossmq-destinations-service.xml" stamp="1609936327151" updateReferences="true"/>
+</session>

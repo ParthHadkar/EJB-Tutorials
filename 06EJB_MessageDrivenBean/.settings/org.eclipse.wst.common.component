@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="06EJB_MessageDrivenBean">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="06EJB_MessageDrivenBeanServer.jar" deploy-path="/" handle="module:/resource/06EJB_MessageDrivenBeanServer/06EJB_MessageDrivenBeanServer">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

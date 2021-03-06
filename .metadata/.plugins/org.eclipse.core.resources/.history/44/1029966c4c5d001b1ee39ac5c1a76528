@@ -1,0 +1,25 @@
+package com.ejb.sessionbean;
+
+import javax.ejb.Stateless;
+import javax.ejb.Timer;
+
+/**
+ * Session Bean implementation class TimerServiceSessionBean
+ */
+@Stateless
+public class TimerServiceSessionBean implements TimerServiceSessionBeanRemote, TimerServiceSessionBeanLocal {
+
+    
+    public TimerServiceSessionBean() {}
+
+	public void createTimer(long timeInMillisSec) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void timeOutHandler(Timer timer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

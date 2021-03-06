@@ -1,0 +1,41 @@
+1609129387900	Extract local variable 'resultList'
+1609130204598	Delete element
+1609130208466	Delete element
+1609133687430	Move file
+1609134619021	Rename type 'LibraryStatelessSessionBean'
+1609136969821	Move 'persistence.xml' to '03EJB_PersistanceServer'
+1609137301062	Move 'New_Oracle-ds.xml' to 'META-INF'
+1609137304660	Move 'persistence.xml' to 'META-INF'
+1609138192984	Rename resource 'New_Oracle-ds.xml'
+1609139071586	Delete element
+1609149006903	Move file
+1609149072121	Move 'jboss-ds.xml' to '03EJB_PersistanceServer'
+1609149108723	Move 'jboss-ds.xml' to 'META-INF'
+1609161875916	Rename resource 'jboss-ds.xml'
+1609162346796	Delete element
+1609168070654	Delete element
+1609185759443	Delete element
+1609212700726	Move 'jboss-library-persistance-ds.xml' to 'lib'
+1609213545131	Delete element
+1609214043775	Delete element
+1609215357865	Rename resource 'New_Oracle-ds.xml'
+1609215365432	Move 'jboss-library-persistance-ds.xml' to 'META-INF'
+1609215622654	Delete element
+1609217240673	Move 'ojdbc6.jar' to 'META-INF'
+1609217246815	Move 'ojdbc8.jar' to 'lib'
+1609217283696	Move 'ojdbc8.jar' to 'META-INF'
+1609217286866	Move 'ojdbc6.jar' to 'lib'
+1609233255037	Rename resource 'jboss-library-persistance-ds.xml'
+1609247282123	Move 'ojdbc8.jar' to 'lib'
+1609270247580	Delete element
+1609318686415	Delete element
+1609349558879	Delete element
+1609388725450	Rename resource 'OracleDb-ds.xml'
+1609391218811	Rename resource 'OracleDb-ds.xml.bak'
+1609407400823	Rename resource '03EJB_PersistanceServerDatasource-ds.xml'
+1609414618490	Rename resource 'New_MySQL-ds.xml'
+1609414888425	Rename resource 'persistence.xml'
+1609414926130	Rename resource '03EJB_PersistanceServerDatasource-ds.xml'
+1609416389196	Rename resource '03EJB_PersistanceServerDatasource-ds.xml1.bak'
+1609416406518	Rename resource '03EJB_PersistanceServerDatasource-ds.xml1'
+1609416443117	Rename resource 'persistence.xml.bak'

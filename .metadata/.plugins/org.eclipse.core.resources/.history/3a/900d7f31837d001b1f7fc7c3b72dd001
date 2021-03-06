@@ -1,0 +1,20 @@
+package com.ejb.sessionbean.clientsample;
+
+import com.ejb.sessionbean.*;
+
+public class ClientSample {
+
+	public static void main(String[] args) {
+	        System.out.println("***********************");
+	        System.out.println("Create Web Service Client...");
+	        LibraryPersistanceBeanService service1 = new LibraryPersistanceBeanService();
+	        System.out.println("Create Web Service...");
+	        LibraryPersistanceBean port1 = service1.getLibraryPersistanceBeanPort();
+	        System.out.println("Call Web Service Operation...");
+	        System.out.println("Server said: port1.addBook() is a void method!");
+	        System.out.println("Server said: " + port1.getBooks());
+	        System.out.println("Server said: port1.removeBook() is a void method!");
+	        System.out.println("***********************");
+	        System.out.println("Call Over!");
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;16EJB_EntityRelationshipsServer/ejbModule/META-INF/15EJB_JNDIBindingsServerDatasource-ds.xml&apos; to &apos;16EJB_EntityRelationshipsServerDatasource-ds.xml&apos;" description="Rename resource &apos;15EJB_JNDIBindingsServerDatasource-ds.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ejbModule/META-INF/15EJB_JNDIBindingsServerDatasource-ds.xml" name="16EJB_EntityRelationshipsServerDatasource-ds.xml" stamp="1614137515848" updateReferences="true"/>
+</session>

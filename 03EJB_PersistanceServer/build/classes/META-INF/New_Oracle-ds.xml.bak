@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.ironjacamar.org/doc/schema">
+ <datasource jndi-name="java:jboss/datasources/New_Oracle" enabled="true" 
+     use-java-context="true" pool-name="New_Oracle">
+  <connection-url>jdbc:oracle:thin:@localhost:1521:orcl</connection-url>
+  <driver>ojdbc8.jar</driver>
+  <pool></pool>
+  <security>
+   <user-name>c##admin</user-name>
+   <password>admin</password>
+  </security>
+ </datasource>
+</datasources>

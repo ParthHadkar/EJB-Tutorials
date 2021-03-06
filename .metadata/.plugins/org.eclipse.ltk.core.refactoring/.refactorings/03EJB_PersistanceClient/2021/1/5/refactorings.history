@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.ejb.test&apos; to &apos;09EJB_InterceptorsClient/src&apos;&#x0D;&#x0A;- Original project: &apos;03EJB_PersistanceClient&apos;&#x0D;&#x0A;- Destination element: &apos;09EJB_InterceptorsClient/src&apos;&#x0D;&#x0A;- Original element: &apos;03EJB_PersistanceClient/src/com.ejb.test&apos;" description="Copy package" destination="=09EJB_InterceptorsClient/src" element1="/src&lt;com.ejb.test" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1611977454605" version="1.0"/>
+</session>

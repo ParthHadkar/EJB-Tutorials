@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+   xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="
+        http://java.sun.com/xml/ns/persistence
+        http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+   <persistence-unit name="unit1"  transaction-type = "JTA">
+      <jta-data-source>java:/MySqlDB1</jta-data-source>
+      <properties>
+         
+         <property name="hibernate.show_sql" value="true" />
+     <property name="jboss.entity.manager.jndi.name" 
+value="java:/unit1"/>
+      <property name="jboss.entity.manager.factory.jndi.name" 
+value="java:/unit1Factory"/>
+      </properties>
+   </persistence-unit>
+ 
+ <!-- <persistence-unit name = "unit1"  transaction-type = "JTA">
+       <provider>org.hibernate.ejb.HibernatePersistence</provider> 
+      <jta-data-source>java:/03EJB_PersistanceServerDatasource</jta-data-source>
+      <jta-data-source>java:/03EJB_PersistanceServerDatasource</jta-data-source>
+      <exclude-unlisted-classes>false</exclude-unlisted-classes>
+	  
+      <properties>
+       <property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver" />
+       <property name=" hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
+     <property name="databasePlatform" value="org.hibernate.dialect.Oracle10gDialect"/>
+           <property name="hibernate.query.factory_class" value="org.hibernate.hql.classic.ClassicQueryTranslatorFactory"/> 
+         <property name="hibernate.hbm2ddl.auto" value="update"/>
+         <property name="hibernate.show_sql" value="true" />
+     <property name="jboss.entity.manager.jndi.name" 
+value="java:/unit1"/>
+      <property name="jboss.entity.manager.factory.jndi.name" 
+value="java:/unit1Factory"/>
+      </properties>
+   </persistence-unit> -->
+</persistence>

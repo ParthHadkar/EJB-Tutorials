@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;01EJB_StatelessSessionBean&apos; to &apos;01EJB_StatelessSessionBeanss&apos;&#x0D;&#x0A;- Original element: &apos;01EJB_StatelessSessionBean&apos;&#x0D;&#x0A;- Renamed element: &apos;01EJB_StatelessSessionBean&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;01EJB_StatelessSessionBean&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=01EJB_StatelessSessionBean" name="01EJB_StatelessSessionBeanss" references="true" stamp="1608724983184" version="1.0"/>
+</session>

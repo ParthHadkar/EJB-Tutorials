@@ -1,0 +1,92 @@
+package com.ejb.sessionbean;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import javax.jws.WebResult;
+import javax.jws.WebService;
+import javax.jws.soap.SOAPBinding;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceContext;
+import javax.persistence.PersistenceUnit;
+import javax.persistence.Query;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+import com.ejb.model.Book;
+import javax.xml.bind.annotation.XmlAttribute;
+
+@Stateless//(mappedName = "lbrsb")
+//@WebService(serviceName="LibraryService")
+@WebService(                                                           
+		   name="LibraryService",
+		  // targetNamespace = "http://org.jboss.ws/samples/retail/profile",
+		   serviceName = "LibraryServiceService")
+		@SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.BARE)  
+@XmlRootElement(name = "LibraryPersistanceBean")
+@XmlAccessorType (XmlAccessType.PUBLIC_MEMBER)
+public class LibraryPersistanceBean implements LibrarySessionBeanLocal,LibrarySessionBeanRemote 
+{
+	 //@PersistenceUnit(unitName="unit1") 
+	 //private EntityManagerFactory factory;
+
+	@PersistenceContext(unitName = "unit1")
+	private EntityManager entityManager;
+         
+	/*protected final EntityManager getEntityManager() {
+        if (entityManager == null) {
+        	entityManager = factory.createEntityManager();
+        }
+        return entityManager;
+    }*/
+	
+    public LibraryPersistanceBean(){}//getEntityManager();
+
+	@Override
+	@WebMethod(operationName="addBook")
+	public void addBook(@WebParam (name = "name")String name,@WebParam (name = "author")String author) {
+		Book book= new Book(name, author);
+		System.out.println(book+ "addBook "+book.getName()+" "+book.getAuthor());
+		entityManager.persist(book);
+		
+	}
+
+	@Override
+	@WebMethod(operationName="removeBook")
+	public void removeBook(@WebParam (name = "name")String name,@WebParam (name = "author")String author) {
+		entityManager.remove(getBook(name, author));
+	}
+
+	@Override
+    @WebMethod(operationName="getBooks")
+	//@WebResult(name = "resultList")
+	@XmlElement(name="getBooks")
+	@XmlAttribute
+	public List<Book> getBooks() {
+		Query query = entityManager.createQuery("FROM Book b");
+		List<Book> resultList = query.getResultList();
+		return resultList;
+	}
+
+	@Override
+	@XmlAttribute
+	@XmlElement(name="getBook")
+	@WebMethod(operationName = "getBook")
+	public Book getBook(@WebParam (name = "name")String name,@WebParam (name = "author")String author) {
+		Book book = null;
+		Query query = entityManager.createQuery("FROM Book b WHERE b.name=:name AND b.author=:author");
+		query.setParameter("name", name);
+		query.setParameter("author", author);
+		book = (Book) query.getSingleResult();
+		return book;
+	}
+
+    
+    
+}

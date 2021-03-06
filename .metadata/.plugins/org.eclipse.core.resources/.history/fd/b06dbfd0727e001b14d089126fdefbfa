@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd">
+  <display-name>20EJB_WebServicesServer</display-name> 
+<assembly-descriptor>
+  <security-role>
+        <role-name>student</role-name>
+  </security-role>
+  <security-role>
+        <role-name>librarian</role-name>  
+  </security-role>
+ 
+  <method-permission>
+        <role-name>student</role-name>
+        <role-name>librarian</role-name>
+        <method>
+          <ejb-name>com.ejb.sessionbean.LibraryPersistanceBean</ejb-name>
+          <method-name>addBook</method-name>
+        </method>
+        <method>
+          <ejb-name>com.ejb.sessionbean.LibraryPersistanceBean</ejb-name>
+          <method-name>removeBook</method-name>
+        </method>
+         <method>
+          <ejb-name>com.ejb.sessionbean.LibraryPersistanceBean</ejb-name>
+          <method-name>getBook</method-name>
+        </method>
+  </method-permission>
+</assembly-descriptor>
+
+ </ejb-jar>

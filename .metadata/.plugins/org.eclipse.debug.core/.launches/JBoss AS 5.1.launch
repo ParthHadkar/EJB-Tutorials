@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.jboss.ide.eclipse.as.core.server.startupConfiguration">
+    <stringAttribute key="org.jboss.ide.eclipse.as.rse.core.RSEJBossStartLaunchDelegate.DEFAULT_SHUTDOWN_COMMAND" value="C:/Server/jboss-5.1.0.GA/bin/shutdown.sh -S -s localhost:1099 -u admin -p admin "/>
+    <stringAttribute key="org.jboss.ide.eclipse.as.rse.core.RSEJBossStartLaunchDelegate.DEFAULT_STARTUP_COMMAND" value="java -Djava.endorsed.dirs=&quot;C:\Server\jboss-5.1.0.GA\lib\endorsed&quot; -Djava.library.path=&quot;C:\Server\jboss-5.1.0.GA\bin\native&quot; -classpath C:\Server\jboss-5.1.0.GA\bin\run.jar org.jboss.Main -Djboss.server.base.dir=C:\Server\jboss-5.1.0.GA\server --configuration=default -b localhost&amp;"/>
+    <stringAttribute key="org.jboss.ide.eclipse.as.rse.core.RSEJBossStartLaunchDelegate.SHUTDOWN_COMMAND" value="C:/Server/jboss-5.1.0.GA/bin/shutdown.sh -S -s localhost:1099 -u admin -p admin "/>
+    <stringAttribute key="org.jboss.ide.eclipse.as.rse.core.RSEJBossStartLaunchDelegate.STARTUP_COMMAND" value="java -Djava.endorsed.dirs=&quot;C:\Server\jboss-5.1.0.GA\lib\endorsed&quot; -Djava.library.path=&quot;C:\Server\jboss-5.1.0.GA\bin\native&quot; -classpath C:\Server\jboss-5.1.0.GA\bin\run.jar org.jboss.Main -Djboss.server.base.dir=C:\Server\jboss-5.1.0.GA\server --configuration=default -b localhost&amp;"/>
+    <stringAttribute key="server-id" value="JBoss AS 5.1"/>
+</launchConfiguration>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;11EJB_BlobsClobsServer/ejbModule/META-INF/10EJB_EmbeddableObjectsServerDatasource-ds.xml&apos; to &apos;11EJB_BlobsClobsServerDatasource-ds.xml&apos;" description="Rename resource &apos;10EJB_EmbeddableObjectsServerDatasource-ds.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ejbModule/META-INF/10EJB_EmbeddableObjectsServerDatasource-ds.xml" name="11EJB_BlobsClobsServerDatasource-ds.xml" stamp="1612850591789" updateReferences="true"/>
+</session>

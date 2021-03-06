@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd">
+  <display-name>09EJB_InterceptorsServer </display-name> 
+  <assembly-descriptor>
+      <!-- Default interceptor that will apply to all methods for all beans in deployment .
+      Using * for the ejb-name says that BusinessInterceptor is a default interceptor,-->
+      <!-- <interceptor-binding>
+         <ejb-name>*</ejb-name>
+         <interceptor-class>com.ejb.interceptor.BusinessInterceptor</interceptor-class>
+      </interceptor-binding> -->
+     
+      <!-- Class interceptor that will apply to all methods for LibraryPersistanceBean -->
+      <!-- <interceptor-binding>
+         <ejb-name>com.ejb.sessionbean.LibraryPersistanceBean</ejb-name>
+         <interceptor-class>com.ejb.interceptor.BusinessInterceptor</interceptor-class>
+      </interceptor-binding> -->
+      
+      <!-- <interceptors>
+      <interceptor>
+         <interceptor-class>org.jboss.tutorial.interceptor.bean.AccountsCancelInterceptor</interceptor-class>
+         <around-invoke-method>
+            <method-name>sendBookingConfirmationMessage</method-name>
+         </around-invoke-method>
+         </interceptor>
+   </interceptors> -->
+   
+   <!-- Method interceptor will apply to sendBookingCancellationMessage for EmailSystemBean -->
+  <!--  <interceptor-binding>
+        <ejb-name>com.ejb.sessionbean.LibraryPersistanceBean</ejb-name>
+         <interceptor-class>com.ejb.interceptor.BusinessInterceptor</interceptor-class>
+         <method-name>sendBookingConfirmationMessage</method-name>
+      </interceptor-binding> -->
+      
+      <!-- Method interceptor will apply to sendBookingCancellationMessage for EmailSystemBean -->
+      <!-- <interceptor-binding>
+        <ejb-name>com.ejb.sessionbean.LibraryPersistanceBean</ejb-name>
+         <interceptor-class>com.ejb.interceptor.BusinessInterceptor</interceptor-class>
+         <method-name>sendBookingConfirmationMessage</method-name>
+	  <method-params>
+		 <method-param>int</method-param>
+		 <method-param>java.lang.String[][]</method-param>
+	  </method-params>
+
+      </interceptor-binding> -->
+      
+     
+   </assembly-descriptor>
+   
+ </ejb-jar>

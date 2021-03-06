@@ -1,0 +1,5 @@
+package com.ejb.sessionbean;
+
+public class TimerServiceSessionBean {
+
+}

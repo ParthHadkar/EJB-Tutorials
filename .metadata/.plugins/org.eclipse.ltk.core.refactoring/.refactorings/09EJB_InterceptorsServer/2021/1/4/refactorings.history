@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;09EJB_InterceptorsServer/ejbModule/META-INF/07EJB_CallbacksServerDatasource-ds.xml&apos; to &apos;09EJB_InterceptorsServerDatasource-ds.xml&apos;" description="Rename resource &apos;07EJB_CallbacksServerDatasource-ds.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ejbModule/META-INF/07EJB_CallbacksServerDatasource-ds.xml" name="09EJB_InterceptorsServerDatasource-ds.xml" stamp="1611416884842" updateReferences="true"/>
+</session>

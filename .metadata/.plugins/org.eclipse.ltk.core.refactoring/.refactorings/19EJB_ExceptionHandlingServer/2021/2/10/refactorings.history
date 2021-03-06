@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;19EJB_ExceptionHandlingServer/ejbModule/META-INF/18EJB_QueryLanguageServerDatasource-ds.xml&apos; to &apos;19EJB_ExceptionHandlingServerDatasource-ds.xml&apos;" description="Rename resource &apos;18EJB_QueryLanguageServerDatasource-ds.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ejbModule/META-INF/18EJB_QueryLanguageServerDatasource-ds.xml" name="19EJB_ExceptionHandlingServerDatasource-ds.xml" stamp="1614526072097" updateReferences="true"/>
+</session>

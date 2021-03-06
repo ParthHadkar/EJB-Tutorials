@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ejb-jar.xml&apos; to &apos;META-INF&apos;&#x0D;&#x0A;- Original project: &apos;14EJB_SecurityServer&apos;&#x0D;&#x0A;- Destination element: &apos;META-INF&apos;&#x0D;&#x0A;- Original element: &apos;ejb-jar.xml&apos;" description="Copy file" element1="ejbModule/META-INF/ejb-jar.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1614533406059" target="/20EJB_WebServicesServer/ejbModule/META-INF" units="0" version="1.0"/>
+</session>

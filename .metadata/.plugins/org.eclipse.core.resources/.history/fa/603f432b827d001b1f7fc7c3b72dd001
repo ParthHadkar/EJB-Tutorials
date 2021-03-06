@@ -1,0 +1,4 @@
+package com.ejb.sessionbean.clientsample;
+
+public class ClientSample {
+}

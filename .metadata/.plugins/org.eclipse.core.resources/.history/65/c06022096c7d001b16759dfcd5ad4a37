@@ -1,0 +1,23 @@
+package com.ejb.sessionbean;
+
+import java.util.List;
+
+import javax.ejb.Remote;
+import javax.jws.WebService;
+
+import com.ejb.model.Book;
+
+@Remote
+//@WebService
+public interface LibrarySessionBeanRemote 
+{
+	
+	public void addBook(String name,String author);
+	
+	public void removeBook(String name,String author);
+	
+	private  List<Book> getBooks();
+	
+	private  Book getBook(String name,String author);
+
+}

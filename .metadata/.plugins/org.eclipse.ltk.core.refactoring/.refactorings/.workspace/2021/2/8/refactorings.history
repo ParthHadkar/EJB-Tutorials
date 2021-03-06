@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;12EJB_ContainerManagedTransactions&apos;" deleteContents="true" description="Delete resource &apos;12EJB_ContainerManagedTransactions&apos;" element1="/12EJB_ContainerManagedTransactions" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1613297685070"/>
+</session>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="LASTEARNAME_" value="20EJB_WebServices"/>
+	<item key="J2EE_EXPORT_OVERWRITE" value="false"/>
+	<item key="J2EE_EXPORT_SOURCE" value="false"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="JBoss 5.1 Runtime 1"/>
+		<item value="JBoss 5.1 Runtime"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_EAR">
+		<item value="C:\Server\jboss-5.1.0.GA--old11-01-21\server\default\deploy\20EJB_WebServices.ear"/>
+		<item value="C:\Server\jboss-5.1.0.GA\server\default\deploy\06EJB_MessageDrivenBean.ear"/>
+	</list>
+</section>

@@ -1,0 +1,6 @@
+package com.ejb.sessionbean.clientsample;
+
+import com.ejb.sessionbean.*;
+
+public class ClientSample {
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;14EJB_SecurityServer/ejbModule/META-INF/13EJB_BeanManagedTransactionsServerDatasource-ds.xml&apos; to &apos;14EJB_SecurityServerDatasource-ds.xml&apos;" description="Rename resource &apos;13EJB_BeanManagedTransactionsServerDatasource-ds.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ejbModule/META-INF/13EJB_BeanManagedTransactionsServerDatasource-ds.xml" name="14EJB_SecurityServerDatasource-ds.xml" stamp="1613711100887" updateReferences="true"/>
+</session>
